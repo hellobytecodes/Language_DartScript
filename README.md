@@ -94,7 +94,7 @@ Now you have a single script.exe that runs on any Windows PC — even without Da
 If you prefer to compile the interpreter yourself, you only need a C compiler (e.g. GCC):
 
 ```bash
-gcc src/main.c -o DartScript.exe -O2 -static
+gcc src/DartScript.c -o DartScript.exe -O2 -static
 ```
 
 Requires MinGW or any Windows GCC distribution.
