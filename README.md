@@ -19,7 +19,7 @@ Write payloads with a clean **50‑command syntax** — no expensive hardware ne
 
 | | |
 |---|---|
-| **Name** | Amir (18 years old) |
+| **Name** | Salman (18 years old) |
 | **Country** | Iran 🇮🇷 |
 | **Built with** | C (ANSI C) + AI assistance |
 | **First release** | 2026 |
@@ -39,7 +39,7 @@ Write payloads with a clean **50‑command syntax** — no expensive hardware ne
 | 🧱 Compile to `.exe` | ❌ | **Yes** (AOT compiler included) |
 | 📚 Learning difficulty | Medium | **Easy** |
 | 🔓 Open source | ❌ | **Yes** – full source on GitHub |
-| 🧑‍💻 Built by | Hak5 Team | **A single 18‑year‑old** |
+| 🧑‍💻 Built by | Ducky Script : Hak5 Team | **DartScript : A single 18‑year‑old** |
 
 ---
 
