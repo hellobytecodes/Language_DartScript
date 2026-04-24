@@ -186,4 +186,3 @@ ENTER
 | Function Keys | 12 |
 | CTRL Shortcuts | 19 |
 | **Total** | **60** |
-```
