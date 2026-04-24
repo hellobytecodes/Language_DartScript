@@ -1,5 +1,5 @@
 <div align="center">
-   <img src="icon/icon.png" alt="DartScript Logo" width="200" height="200" style="border-radius: 50%;">
+   <img src="icon/icon.png" alt="DartScript Logo" width="200" height="200" style="border-radius: 50%; object-fit: cover; object-position: center;">
 </div>
 
 # Language_DartScript
