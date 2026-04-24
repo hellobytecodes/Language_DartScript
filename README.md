@@ -1,4 +1,11 @@
-<img src="icon/icon.png" alt="DartScript Logo" width="200" height="200" style="border-radius: 20px;">
+<div>
+   <img src="icon/icon.png" alt="DartScript Logo" width="200" height="200" style="border-radius: 50px;">
+</div>
+<style>
+   div {
+      text-align: center;
+   }
+</style>
 
 # Language_DartScript
 The Software-Defined Rubber Ducky. Write and execute BadUSB payloads with a simple 50-command syntax without spending hundreds on hardware.
