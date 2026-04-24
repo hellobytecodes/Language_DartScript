@@ -1,4 +1,3 @@
-```markdown
 # Dart Script - Command Reference
 
 ## Basic Commands
