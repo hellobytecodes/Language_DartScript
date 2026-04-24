@@ -60,7 +60,7 @@ Write payloads with a clean **50‑command syntax** — no expensive hardware ne
 - **Source code** lives inside the **`src/`** folder — raw C files.
 - **Pre‑compiled executables** are in the **`App EXE/`** folder — ready to download and run.
 - **Documentation** will be placed in **`docs/`** (language reference coming soon).
-- **Example scripts** can be found under **`examples/`**, showing real‑world payloads.
+- **Example scripts** can be found under **`payloads/`**, showing real‑world payloads.
 
 ---
 
