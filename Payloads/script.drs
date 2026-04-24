@@ -1,0 +1,9 @@
+COMMENT Open CMD and run command
+WINDOWS r
+TIME 500
+TYPE cmd
+ENTER
+TIME 500
+TYPE echo Hello DartScript
+ENTER
+TIME 1000
