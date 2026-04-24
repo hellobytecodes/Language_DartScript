@@ -1,0 +1,335 @@
+```markdown
+╔══════════════════════════════════════════════════════════════════════╗
+║                   DART SCRIPT - COMMAND REFERENCE                   ║
+║                   ==============================                    ║
+║                     Complete Command Reference                      ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+══════════════════════════════════════════════════════════════════════
+                        📝 Basic Commands
+══════════════════════════════════════════════════════════════════════
+
+1. TYPE <text>
+   Usage: Types text on the screen
+   Example: TYPE Hello World
+   Description: Types whatever text you specify
+
+2. TIME <milliseconds>
+   Usage: Creates a delay in milliseconds
+   Example: TIME 1000
+   Description: Waits for 1 second (1000 milliseconds = 1 second)
+
+3. COMMENT <text>
+   Usage: Writes a comment (ignored by interpreter)
+   Example: COMMENT This is a comment
+   Description: The interpreter skips this line entirely
+
+4. DEFAULT_DELAY <milliseconds>
+   Usage: Sets default delay between all commands
+   Example: DEFAULT_DELAY 100
+   Description: After each command, waits this many milliseconds
+
+5. REPEAT <number>
+   Usage: Repeats commands between REPEAT and END
+   Example: REPEAT 5
+              PRESS DOWN
+            END
+   Description: Loops through the enclosed commands the specified number of times
+
+6. END
+   Usage: Ends a REPEAT loop
+   Example: REPEAT 3
+              PRESS DOWN
+            END
+   Description: Marks the end of a loop block
+
+
+══════════════════════════════════════════════════════════════════════
+                    ⌨️ Modifier Keys
+══════════════════════════════════════════════════════════════════════
+
+7. PRESS <key>
+   Usage: Presses a single key or key combination
+   Examples:
+      PRESS a              -> Presses the A key
+      PRESS ctrl+c         -> Copy
+      PRESS alt+tab        -> Switch windows
+      PRESS ctrl+shift+ESC -> Opens Task Manager
+   Description: Use the + sign to combine multiple keys
+
+8. WINDOWS <key>
+   Usage: Windows key (can be combined)
+   Examples:
+      WINDOWS             -> Opens the Start Menu
+      WINDOWS r           -> Opens the Run dialog
+      WINDOWS e           -> Opens File Explorer
+      WINDOWS l           -> Locks the computer
+      WINDOWS d           -> Shows the desktop
+      WINDOWS tab         -> Opens Task View
+
+9. CONTROL <key>  or  CTRL <key>
+   Usage: Control key (can be combined)
+   Examples:
+      CONTROL c           -> Copy
+      CONTROL v           -> Paste
+      CONTROL a           -> Select All
+      CONTROL s           -> Save
+      CONTROL z           -> Undo
+      CONTROL f           -> Find
+
+10. ALT <key>
+    Usage: Alt key (can be combined)
+    Examples:
+       ALT tab            -> Switch windows
+       ALT f4             -> Close window
+       ALT d              -> Focus address bar
+
+11. SHIFT <key>
+    Usage: Shift key (can be combined)
+    Examples:
+       SHIFT a           -> Types uppercase A
+       SHIFT tab          -> Move backward through tabs
+
+
+══════════════════════════════════════════════════════════════════════
+                    🔘 Simple Keys
+══════════════════════════════════════════════════════════════════════
+
+12. ENTER
+    Usage: Presses the Enter key
+    Example: ENTER
+    Description: Same as pressing Enter on a keyboard
+
+13. BACK
+    Usage: Presses the Backspace key
+    Example: BACK
+    Description: Deletes the previous character
+
+14. TAB
+    Usage: Presses the Tab key
+    Example: TAB
+    Description: Moves to the next field
+
+15. ESC
+    Usage: Presses the Escape key
+    Example: ESC
+    Description: Closes windows or cancels operations
+
+16. SPACE
+    Usage: Presses the Space key
+    Example: SPACE
+    Description: Types a space character
+
+17. DELETE
+    Usage: Presses the Delete key
+    Example: DELETE
+    Description: Deletes the next character
+
+18. INSERT
+    Usage: Presses the Insert key
+    Example: INSERT
+    Description: Toggles insert/overwrite mode
+
+
+══════════════════════════════════════════════════════════════════════
+                    ⬆️⬇️⬅️➡️ Arrow Keys
+══════════════════════════════════════════════════════════════════════
+
+19. UP
+    Usage: Presses the Up arrow key
+    Example: UP
+    Description: Moves up in lists and menus
+
+20. DOWN
+    Usage: Presses the Down arrow key
+    Example: DOWN
+    Description: Moves down in lists and menus
+
+21. LEFT
+    Usage: Presses the Left arrow key
+    Example: LEFT
+    Description: Moves left
+
+22. RIGHT
+    Usage: Presses the Right arrow key
+    Example: RIGHT
+    Description: Moves right
+
+
+══════════════════════════════════════════════════════════════════════
+                    🧭 Navigation Keys
+══════════════════════════════════════════════════════════════════════
+
+23. HOME
+    Usage: Presses the Home key
+    Example: HOME
+    Description: Jumps to the beginning of a line or page
+
+24. END
+    Usage: Presses the End key
+    Example: END
+    Description: Jumps to the end of a line or page
+
+25. PAGEUP
+    Usage: Presses the Page Up key
+    Example: PAGEUP
+    Description: Scrolls one page up
+
+26. PAGEDOWN
+    Usage: Presses the Page Down key
+    Example: PAGEDOWN
+    Description: Scrolls one page down
+
+
+══════════════════════════════════════════════════════════════════════
+                    🔧 Special Keys
+══════════════════════════════════════════════════════════════════════
+
+27. CAPS
+    Usage: Toggles Caps Lock
+    Example: CAPS
+    Description: Each press toggles the Caps Lock state
+
+28. PRTSC
+    Usage: Takes a screenshot
+    Example: PRTSC
+    Description: Captures the screen
+
+29. PAUSE
+    Usage: Presses the Pause/Break key
+    Example: PAUSE
+    Description: Pauses video or game playback
+
+
+══════════════════════════════════════════════════════════════════════
+                    🔢 Function Keys
+══════════════════════════════════════════════════════════════════════
+
+30. F1  through  F12
+    Usage: Function keys
+    Examples:
+       F1                  -> Help (in most programs)
+       F2                  -> Rename
+       F3                  -> Search
+       F4                  -> Close tab (in browsers)
+       F5                  -> Refresh
+       F11                 -> Full screen
+       F12                 -> Developer Tools in browsers
+
+
+══════════════════════════════════════════════════════════════════════
+                    ⚡ CTRL Shortcuts
+══════════════════════════════════════════════════════════════════════
+
+31. CTRL_C          -> Copy
+32. CTRL_V          -> Paste
+33. CTRL_X          -> Cut
+34. CTRL_A          -> Select All
+35. CTRL_S          -> Save
+36. CTRL_Z          -> Undo
+37. CTRL_Y          -> Redo
+38. CTRL_F          -> Find
+39. CTRL_W          -> Close Tab
+40. CTRL_T          -> New Tab
+41. CTRL_N          -> New Window
+42. CTRL_P          -> Print
+43. CTRL_R          -> Refresh
+44. CTRL_E          -> Search center
+45. CTRL_D          -> Bookmark
+46. CTRL_G          -> Go to Line
+47. CTRL_H          -> History
+48. CTRL_K          -> Search in Tab
+49. CTRL_L          -> Go to address bar
+
+
+══════════════════════════════════════════════════════════════════════
+                         💡 Practical Examples
+══════════════════════════════════════════════════════════════════════
+
+Example 1 - Opening CMD:
+─────────────
+WINDOWS r
+TIME 500
+TYPE cmd
+ENTER
+
+Example 2 - Opening File Explorer and navigating to C: drive:
+─────────────────────────────────────────────────────────────
+WINDOWS e
+TIME 1000
+ALT d
+TIME 300
+TYPE C:
+ENTER
+TIME 1000
+
+Example 3 - Locking the computer:
+─────────────────────────────────
+WINDOWS l
+
+Example 4 - Opening Task Manager:
+─────────────────────────────────
+PRESS ctrl+shift+ESC
+
+Example 5 - Taking a screenshot:
+────────────────────────────────
+WINDOWS shift+s
+
+Example 6 - Closing the active window:
+──────────────────────────────────────
+ALT f4
+
+Example 7 - Selecting multiple files in File Explorer:
+──────────────────────────────────────────────────────
+PRESS DOWN
+TIME 100
+PRESS shift+DOWN
+TIME 100
+PRESS shift+DOWN
+
+Example 8 - Repeat loop:
+────────────────────────
+REPEAT 10
+    PRESS DOWN
+    TIME 50
+END
+
+Example 9 - Typing text and saving:
+───────────────────────────────────
+TYPE Hello World
+ENTER
+CTRL_S
+TIME 500
+TYPE myfile.txt
+ENTER
+
+
+══════════════════════════════════════════════════════════════════════
+                         ⚠️ Important Notes
+══════════════════════════════════════════════════════════════════════
+
+1. Commands must be written in UPPERCASE (TYPE, TIME, PRESS, ...)
+2. Arguments can be lowercase or uppercase
+3. Use the + sign to combine keys
+4. DartScript files use the .drs extension
+5. To execute: DartScript.exe filename.drs
+
+
+══════════════════════════════════════════════════════════════════════
+                    📊 Command Summary
+══════════════════════════════════════════════════════════════════════
+
+Basic Commands:             6
+Modifier Keys:              5
+Simple Keys:                7
+Arrow Keys:                 4
+Navigation Keys:           4
+Special Keys:              3
+Function Keys:            12
+CTRL Shortcuts:           19
+─────────────────────────────────
+Total:                    60
+
+
+══════════════════════════════════════════════════════════════════════
+```
