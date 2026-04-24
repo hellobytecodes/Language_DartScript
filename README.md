@@ -130,5 +130,3 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ---
 
 Built with ❤️ and raw C — by an 18‑year‑old from Iran.
-
-```
