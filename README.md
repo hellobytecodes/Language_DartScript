@@ -109,6 +109,22 @@ A full manual covering all 50+ commands, syntax rules and advanced usage will be
 
 ---
 
+# 💿 How to Install DartScript on Windows
+
+1. Go to the **`Installer DartScript for Windows`** folder in this repository.
+
+2. Download the installer file:
+   - **`DartScript_Setup.exe`**
+
+3. Once downloaded, **right-click** the file and select **Run as administrator**.
+
+4. Follow the installation steps (Next → Install → Finish).
+
+5. After installation is complete, open a terminal (CMD or PowerShell) and type:
+DartScript.exe
+
+---
+
 ❗ Disclaimer
 
 This tool is strictly for educational purposes, authorized penetration testing and security research.
