@@ -103,7 +103,7 @@ Requires MinGW or any Windows GCC distribution.
 
 📖 Language Documentation
 
-<a href="">Coming Soon</a>
+<a href="Docs/SYNTAX.md">View Full Command Reference (60 Commands)</a>
 
 A full manual covering all 50+ commands, syntax rules and advanced usage will be published here in the near future.
 
