@@ -114,7 +114,7 @@ A full manual covering all 50+ commands, syntax rules and advanced usage will be
 1. Go to the **`Installer DartScript for Windows`** folder in this repository.
 
 2. Download the installer file:
-   - **`DartScript_Setup.exe`**
+   - **`DartScript_v1.0_x64_installer.exe`**
 
 3. Once downloaded, **right-click** the file and select **Run as administrator**.
 
