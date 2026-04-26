@@ -11,7 +11,7 @@ The Software-Defined Rubber Ducky. Write and execute BadUSB payloads with a simp
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com)
 [![Windows](https://img.shields.io/badge/platform-Windows%2010%2B-0078D6?logo=windows)](https://github.com)
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![License](https://github.com/hellobytecodes/Language_DartScript/blob/main/LICENSE)](LICENSE)
 [![Built with C](https://img.shields.io/badge/built%20with-C-555555?logo=c)](https://github.com)
 
 DartScript is a **fast, interpreter‑based scripting language** built entirely in **C** for **Windows automation** and **security testing**.  
