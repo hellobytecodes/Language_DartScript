@@ -54,6 +54,11 @@
 - **F3** — Search
 - **F4** — Close tab (in browsers)
 - **F5** — Refresh
+- **F6** — Address Bar
+- **F7** — Spell Check
+- **F8** — Extend Select
+- **F9** — Update Fields
+- **F10** — Menu Bar
 - **F11** — Full screen
 - **F12** — Developer Tools in browsers
 
